@@ -1,5 +1,5 @@
 <p align = "center">
-<img src="https://beiliedeyang.oss-cn-nanjing.aliyuncs.com/image1.jpg" width="200px" />
+<img src="https://beiliedeyang.oss-cn-nanjing.aliyuncs.com/image.png" width="200px" />
 </p>
 <h1 align = "center">Vue 3 + TypeScript 学习文档</h1>
 <p align = "center">
@@ -23,6 +23,6 @@
 
 从头开始，循序渐进地学习 Vue 3和 TypeScript。
 
-- 从头开始，学习 Vue 3 和 TypeScript
+- 从头开始，学习 Vue 3 和 TypeScrip
 - 学习文档，从零开始构建一个 Vue 3 + TypeScript 项目
 
