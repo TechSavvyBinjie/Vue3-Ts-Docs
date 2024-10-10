@@ -45,8 +45,7 @@ npm install vitepress@latest
 npm run docs:dev
 ```
 
-![7af356358d4a8c9188f0a6ea90ac3c74](D:\qq\2309932069\nt_qq\nt_data\Pic\2024-10\Ori\7af356358d4a8c9188f0a6ea90ac3c74.png)
-
+![image.png](https://s2.loli.net/2024/10/10/fA3CWLYq8vGFyzV.png)
 ## 2.项目结构
 
 首页的内容就是由 docs/index.md 文档生成的，由 markdown 文档生成前端页面
@@ -164,22 +163,20 @@ export default defineConfig({
 
 侧边栏：
 
-![cb6a4f458ba08ce62ef1c7945ff37bf5](D:\qq\2309932069\nt_qq\nt_data\Pic\2024-10\Ori\cb6a4f458ba08ce62ef1c7945ff37bf5.png)
+![image.png](https://s2.loli.net/2024/10/10/Bb9NZnKYziURkMC.png)
 
 导航：
 
-![331ba3fddd9321962067053032d9c22d](D:\qq\2309932069\nt_qq\nt_data\Pic\2024-10\Ori\331ba3fddd9321962067053032d9c22d.png)
-
+![image.png](https://s2.loli.net/2024/10/10/5Yf9BTihd6WXagQ.png)
 注意每个页面文件夹都应有index.md文件。
 
 ## 4.上线
 
 ### 1.将其上传到github上
 
-![a88258b3-bb5d-410a-9fae-3deb29e9f055](D:\360极速浏览器X下载\_temp_matlab_R2022b_win64\OneDrive\Desktop\a88258b3-bb5d-410a-9fae-3deb29e9f055.png)
-
+![image.png](https://s2.loli.net/2024/10/10/keu8QnJOVUPT43B.png)
 
 
 ### 2.导入到vercel进行上线
 
-![e09ba107f9f3287f1ab6c9e366ca71c4](D:\qq\2309932069\nt_qq\nt_data\Pic\2024-10\Ori\e09ba107f9f3287f1ab6c9e366ca71c4.png)
+![image.png](https://s2.loli.net/2024/10/10/9p8FCOmsDG5Yfn3.png)
