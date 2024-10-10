@@ -10,7 +10,7 @@ export default defineConfig({
             {text:"构建站点",link:"/guide/"},
             {text:"ts",link:"/components/"},
             {text:"Vue",link:"/api/"},
-            {text:"vueuse",link:"/faq/"}
+            {text:"Vueuse",link:"/faq/"}
         ],
         socialLinks:[
             {icon:"github",link:"https://github.com/vuejs/vitepress"} 
@@ -69,7 +69,7 @@ export default defineConfig({
             ],
             "/faq/": [
               {
-                text: "FAQ",
+                text: "VueUse学习",
                 items: [
                   {
                     text: "介绍",
