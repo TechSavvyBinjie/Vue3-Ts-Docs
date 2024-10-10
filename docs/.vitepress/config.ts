@@ -7,10 +7,10 @@ export default defineConfig({
     themeConfig:{
         nav:[
             {text:"首页",link:"/"},
-            {text:"指南",link:"/guide/"},
-            {text:"组件",link:"/components/"},
-            {text:"API 参考",link:"/api/"},
-            {text:"常见问题",link:"/faq/"}
+            {text:"构建站点",link:"/guide/"},
+            {text:"ts",link:"/components/"},
+            {text:"Vue",link:"/api/"},
+            {text:"vueuse",link:"/faq/"}
         ],
         socialLinks:[
             {icon:"github",link:"https://github.com/vuejs/vitepress"} 
@@ -18,12 +18,12 @@ export default defineConfig({
         sidebar:{
             "/guide/": [
               {
-                text: "开始",
+                text: "VitePress学习",
                 collapsible: true,
                 items: [
                   {text: "介绍",link: "/guide/"},
                   {
-                    text: "安装",
+                    text: "使用 VitePress 构建自己的学习站点",
                     link: "/guide/installation"
                   },
                   {
@@ -35,31 +35,57 @@ export default defineConfig({
             ],
             "/components/": [
               {
-                text: "常用组件",
+                text: "ts学习",
                 items: [
                   {
                     text: "介绍",
                     link: "/components/"
                   },
                   {
-                    text: "按钮 Button",
-                    link: "/components/button"
+                    text: "基础语法",
+                    link: "/components/ts"
                   },
                   {
-                    text: "表单 Form",
+                    text: "ts的深入",
                     link: "/components/form"
+                  }
+                ],
+              }
+            ],
+            "/api/": [
+              {
+                text: "Vue学习",
+                items: [
+                  {
+                    text: "介绍",
+                    link: "/api/"
                   },
                   {
-                    text: "表格 Table",
-                    link: "/components/table"
+                    text: "Vue3",
+                    link: "/api/vue"
+                  }
+                ]
+              }
+            ],
+            "/faq/": [
+              {
+                text: "FAQ",
+                items: [
+                  {
+                    text: "介绍",
+                    link: "/faq/"
                   },
-                ],
+                  {
+                    text: "vueuse",
+                    link: "/faq/Vueuse"
+                  }
+                ]
               }
             ]
         },
         footer: {
             message: "用心学习 Vue 3和 TypeScript!",
-            copyright: "Copyright© 2024 mqxu"
+            copyright: "Copyright© 2024 yangfan"
           }
     }
 })
