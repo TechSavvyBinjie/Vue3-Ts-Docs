@@ -61,8 +61,8 @@ export default defineConfig({
                     link: "/api/"
                   },
                   {
-                    text: "Vue3",
-                    link: "/api/vue"
+                    text: "Vue3基础学习",
+                    link: "/api/Vue"
                   }
                 ]
               }
