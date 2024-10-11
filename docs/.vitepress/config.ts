@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs 
 export default defineConfig({
-    title:"Vue3-Typescript 学习文档",
+    title:"杨先生的学习站点",
     description:"详细学习Vue3-Typescript 的指南",
     themeConfig:{
         nav:[
