@@ -3,13 +3,13 @@
   --vp-c-purple-lighter: #0096c7;
   --vp-c-purple-dark: #0077b6;
   --vp-c-purple-darker: #023e8a;
-  
+
   /* 设置字体颜色 */
   /* --vp-home-hero-name-color: transparent; */
   /* --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff); */
-  
+
   /* 设置右图像渐变 */
-  --vp-home-hero-image-background-image: linear-gradient( -45deg, #0077b6 50%, #00b4d8 50% );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #0077b6 50%, #00b4d8 50%);
   --vp-home-hero-image-filter: blur(150px);
 
 }
@@ -22,3 +22,19 @@
   --vp-c-brand-dark: var(--vp-c-purple-dark);
   --vp-c-brand-darker: var(--vp-c-purple-darker);
 }
+
+/* body {
+  background-image: url('https://beiliedeyang.oss-cn-nanjing.aliyuncs.com/%E6%88%91%E7%9A%84%E7%AB%99%E7%82%B9%E5%9B%BE%E7%89%87/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87.png');
+  background-size: cover;
+  
+} */
+
+/* body::before {
+  content: "";
+  position: absolute; */
+  /* 一定要用绝对定位 */
+  /* width: 100%;
+  height: 100%;
+  backdrop-filter: blur(30px); */
+  /* 模糊半径 */
+/* } */
