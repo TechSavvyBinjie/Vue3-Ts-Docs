@@ -63,6 +63,9 @@ export default defineConfig({
                   {
                     text: "Vue3基础学习",
                     link: "/api/Vue"
+                  },{
+                    text: "Axios学习",
+                    link: "/api/Axios"
                   }
                 ]
               }
